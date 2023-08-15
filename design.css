@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    font-family:'Roboto', sans-serif;
+    background:#f2f3f5;
+} 
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(231, 131, 216, 0.418);
+    position: fixed;
+}
+
+.father{
+    height: 60%;
+    width: 60%;
+    background-color: aqua;
+    margin-top: 120px;
+    margin-left: 250px;
+    display: flex;
+    border: 2px solid black;
+}
+
+#child1{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(253, 251, 248);
+}
+
+
+#child2{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(123, 230, 146);
+}
+
+.grandchild1{
+    height: 50%;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+}
+
+.grandchild2{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(165, 60, 234);
+    background-image: url(https://images.unsplash.com/photo-1518818608552-195ed130cdf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1pbmclMjBsYW5ndWFnZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+.grand-grandChild1{
+    width: 50%;
+    height: 100%;
+    background-color: crimson;
+    background-image: url(https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+.grand-grandChild2{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(240, 24, 24, 0.411);
+    background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvZnR3YXJlJTIwZW5naW5lZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#child1-nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(242, 143, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    font-weight: 900;
+}
+
+#child1-nav>img{
+    height: 80%;
+}
+
+#child1-nav>a{
+    color: black;
+}
+
+.center-text h1{
+    color: black;
+    text-align: center;
+    top: 40%;
+    left: 27%;
+    position: absolute;
+}
+
+.center-text h3{
+    color: black;
+    text-align: center;
+    top: 73%;
+    left: 19%;
+    position: absolute;
+    border-bottom: 2px solid black;
+}
+
+.center-text p{
+    color: black;
+    text-align: center;
+    width: 150px;
+    top: 45%;
+    left: 25%;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.grandchild2:hover{
+    cursor: pointer;
+}
